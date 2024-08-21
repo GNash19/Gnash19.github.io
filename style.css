@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background:#fbf7f7;
+}
+
+.header {
+    height: max-content;
+    width: 100%;
+    position: relative;
+    background:#fbf7f7;
+    padding-bottom: 50px;
+}
+
+.about {
+    height: max-content;
+    width: 100%;
+    position: relative;
+    background:#fbf7f7;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo img {
+    width:50px;
+    cursor: pointer;
+    margin: 35px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right:30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #cea616;
+    font-size: 12px;
+    padding: 5px 2px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    color:black;
+    border-bottom: 3px solid #000000;
+    
+}
+
+button {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 9px 25px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: #cea616;
+    cursor: pointer;
+}
+
+.content-row {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.left-col, .right-col {
+    flex-basis: 50%;
+}
+.left-col {
+    padding: 50px 0;
+}
+
+.left-col h1 {
+    font-family: "Libre Baskerville", serif;
+    margin-top:100px;
+    font-size: 40px;
+    color:#cea616;
+    line-height:40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 16px;
+    color: #171717;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+p em{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-col {
+    width: 50%;
+}
+
+.right-col img {
+    width:70%;
+    margin-top:-30px;
+    margin-left: 160px
+}
+
+.name h1 {
+    display:flex;
+    justify-content: center;
+
+    font-family: "Libre Baskerville", serif;
+    font-size: 50px;
+    color:#cea616;
+    letter-spacing: 3px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e2b915;
+    border-top: 1px solid #e2b915;
+    margin-bottom: 30px;
+}
+
+.name h1:hover {
+    color: #020D19;
+    transition: all 1.5s ease-in-out;
+}
+
+.personal {
+    display:flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.leftcol, .rightcol {
+    margin-top: 20px;
+    flex-basis: 50%;
+}
+
+.leftcol {
+    border: 1px solid black;
+    margin-right: 40px;
+}
+
+.leftcol h2, .rightcol h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top:30px;
+    margin-bottom:30px;
+    color:#cea616;  
+}
+
+.leftcol ul li, .rightcol ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;    
+    letter-spacing: 3px;
+    line-height: 1.7;
+    color: #020D19;
+}
+
+.rightcol {
+    border: 1px solid black;
+}
+
+.leftcol ul {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.rightcol ul {
+    text-align: left;
+    list-style-type: none;
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-bottom:30px;
+}
+
+.social {
+    height: max-content;
+    width: 90%;
+    background-color: #fbf7f7;
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin: 0 50px;
+}
+
+.pictures img{
+    border: 1px solid #a29870;
+    padding: 20px;
+}
+
+.social h2 {
+    font-family: "Outfit", sans-serif;
+    color: #cea616;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.social p {
+    text-align: right;
+    font-family: "Libra Baskerville", serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#bord {
+    border: 1px solid #cea616;
+    padding: 40px;
+    margin-bottom: 40px;
+    margin: 30px 30px;
+}
+
+.favorites {
+    width: 90%;
+    height: max-content;
+    padding: 50px;
+    border-top: 1px solid black; 
+    border-bottom:1px solid black;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.favorites h2 {
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom:20px;
+    color:#cea616;  
+    font-size: 30px;
+}
+
+.content-row2 {
+    display: flex;
+    width: 100%; 
+    flex-basis: 180%;
+}
+
+.leftcol2, .rightcol2 {
+    border: 1px solid black;
+    width:100%;
+}
+
+.leftcol2 {
+    display:flex;
+}
+
+.rightcol2 {
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    width:50%;
+}
+
+.leftcolp2 {
+    margin-right: 10px;
+    flex-basis: 50%;
+}
+
+.rightcolp2 {
+    flex-basis: 50%;
+}
+
+.leftcolp2, .rightcolp2 {
+    display:flex;
+}
+
+.leftcolpp2, .rightcolpp2 {
+    flex-basis: 50%;
+}
+
+.leftcolpp2 {
+    display:flex;
+    flex-direction: column;
+}
+
+.rightcolpp2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftcolpp2 img {
+    width: 95%;
+    height: 95%;
+    margin-bottom: 10px ;
+}
+
+.talents h3 {
+    font-family: "Libra Baskerville", serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #020D19;
+    margin-bottom:5px;
+}
+
+.talents p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color:#e2b915;
+}
+
+.talents {
+    margin: auto;
+}
+
+.rightcolp2 .leftcolpp2 {
+    margin-left: 10px;
+}
+
+.leftcol2 .leftcolp2 .leftcolpp2 .rightcolpp2 #t1 {
+    margin-top: -100px;
+}
+
+.rightcol2 img {
+    width: 100%;
+    height: 60%;
+}
+
+
+

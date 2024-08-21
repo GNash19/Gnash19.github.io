@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>animation.html</title>
+    <style type="text/css">
+        @keyframes anim {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 1000px;
+                top: 0px;
+            }
+
+            50% {
+                left: 1000px;
+                top: 1000px;
+            }
+
+            75% {
+                left: 0px;
+                top: 1000px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        #box {
+            position:
+                absolute;
+            border: 1px solid black;
+            animation: anim 5s ease-in infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">Mov   ing box</div>
+</body>
+
+</html>
