@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        th {
+            width: 75%;
+            height: 10%;
+        }
+
+        tr {
+            width: max-content;
+            height: max-content;
+        }
+
+        .left-col,
+        .right-col {
+            background-color: #27cafc;
+        }
+
+        .left-col p {
+            margin-left: 15px;
+        }
+
+        .right-col input,
+        textarea,
+        select,
+        #btnImage {
+            margin-left: 15px;
+        }
+
+        #btnClickMe,
+        .reset,
+        #btnSubmitForm {
+            text-align: center;
+            padding: 10px 30px;
+        }
+
+        .center {
+            text-align: center;
+            background-color: #27cafc;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        #head {
+            background-color: #faffb0;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table border="1">
+            <th colspan="2" id="head">
+                <h2>Registration Form</h2>
+            </th>
+
+            <tr>
+                <td class="left-col">
+                    <p>Enter Name</p>
+                </td>
+                <td class="right-col">
+                    <form>
+                        <p>
+                            <input type="text" id="txt1" name="txt1" value="" />
+                        </p>
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left-col">
+                    <p>Enter Password</p>
+                </td>
+                <td class="right-col">
+                    <form>
+                        <p>
+                            <input type="password" id="pass" value="" />
+                        </p>
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left-col">
+                    <p>Enter Address</p>
+                </td>
+                <td class="right-col">
+                    <form>
+                        <p>
+                            <textarea id="text" rows="5" cols="25"> </textarea>
+                        </p>
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left-col">
+                    <p>Select Game</p>
+                </td>
+                <td class="right-col">
+                    <input type="checkbox" id="chk" value="Hockey" /> Hockey <br>
+                    <input type="checkbox" id="chk" value="Football" /> Football <br>
+                    <input type="checkbox" id="chk" value="Badminton" /> Badminton <br>
+                    <input type="checkbox" id="chk" value="Cricket" /> Cricket <br>
+                    <input type="checkbox" id="chk" value="Volleyball" /> Volleyball <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left-col">
+                    <p>Gender</p>
+                </td>
+                <td class="right-col">
+                    <input type="radio" name="rad1" id="radmale" value="male" />Male
+                    <input type="radio" name="rad1" id="radfemale" value="female" />Female
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left-col">
+                    <p>Select your age</p>
+                </td>
+                <td class="right-col">
+                    <select name="age" id="age">
+                        <option value="1">6 to 12</option>
+                        <option value="2">13 to 18</option>
+                        <option value="3">18 to 50</option>
+                        <option value="4">50 and above</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left-col">
+                    <p>Select Photo</p>
+                </td>
+                <td class="right-col">
+                    <button id="btnImage">Choose File</button> No file chosen
+                </td>
+            </tr>
+
+            <tr class="center">
+                <td colspan="2">
+                    <button id="btnClickMe">Click Me</button>
+                    <input type="reset" class="reset" />
+                    <button id="btnSubmitForm">Submit Form</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
