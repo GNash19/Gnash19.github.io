@@ -285,6 +285,11 @@ p em {
     width: 100%;
 }
 
+.leftcol2,
+.rightcol2 {
+    width: 100%;
+}
+
 .leftcol2 {
     display: flex;
 }
@@ -407,7 +412,9 @@ p em {
     margin-top: 40px;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=button],
+input[type=submit],
+input[type=reset] {
     background-color: #dfc91f;
     border: none;
     color: white;
@@ -418,7 +425,7 @@ input[type=button], input[type=submit], input[type=reset] {
     float: right;
     margin-right: 65px;
     border-radius: 4px;
-  }
+}
 
 .left-form h2 {
     font-family: "Libre Baskerville", serif;
@@ -550,13 +557,11 @@ footer {
 }
 
 .project-images img {
-    width:50%;
-    height:50%;
+    width: 50%;
+    height: 50%;
 }
 
-.myprojects
-
-.project-images h3 {
+.myprojects .project-images h3 {
     font-family: "Outfit", sans-serif;
     color: #cea616;
     letter-spacing: 3px;
