@@ -486,6 +486,18 @@ footer {
 
 .footer-info h2 {
     margin-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    color: #cea616;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.footer-width p {
+    font-family: "Outfit", sans-serif;
+}
+
+.footer-width ul li a{
+    font-family: "Outfit", sans-serif;
 }
 
 .aboutme,
@@ -512,9 +524,10 @@ footer {
     height: 50px;
     padding-top: 12px;
     background-color: transparent;
-    border: 1px solid black;
     text-align: center;
 }
+
+
 
 .link ul li a {
     display: block;
