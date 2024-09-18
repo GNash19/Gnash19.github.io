@@ -25,13 +25,14 @@
 }
 
 .button1 {
+    font-family: "Outfit", sans-serif;
     background-color: white;
     color: black;
-    border: 2px solid #008CBA;
+    border: 2px solid #eadb33;
 }
 
 .button1:hover {
-    background-color: #008CBA;
+    background-color: #ba3800;
     color: white;
 }
 
