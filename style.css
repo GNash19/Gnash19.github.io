@@ -389,7 +389,7 @@ p em {
     font-size: 100px;
 }
 
-.myform {
+.myform, .sv {
     width: 90%;
     padding: 50px;
     margin: auto;
@@ -403,12 +403,36 @@ p em {
     flex-basis: 50%;
 }
 
-.left-form {
+.leftsound, .rightvideo {
+    flex-basis: 50%;
+}
+
+.leftsound h6 {
+    margin-top: 200px;
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #e2b915;
+}
+
+.left-form, .leftsound {
     padding: 0 50px;
     margin-left: 10px;
 }
 
-.right-form {
+.leftsound p {
+    font-family: "Outfit", sans-serif;
+    color: #cea616;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.right-form, .rightvideo {
     margin-top: 40px;
 }
 
